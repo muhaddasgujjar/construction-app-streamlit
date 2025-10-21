@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Checkpoints and data
+checkpoints/
+checkpoints_dim/
+data/
+generated/
+generated_dim/
+samples/
+samples_dim/
+api_generated/
+
+# IDE / OS files
+.idea/
+.vscode/
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
