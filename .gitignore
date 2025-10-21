@@ -1,17 +1,9 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.log
-*.DS_Store
-.env
 .venv/
-*.egg-info/
-dist/
-build/
 
-# Checkpoints and data
+# large data / checkpoints
 checkpoints/
 checkpoints_dim/
 data/
@@ -21,10 +13,7 @@ samples/
 samples_dim/
 api_generated/
 
-# IDE / OS files
-.idea/
+# IDE
 .vscode/
-Thumbs.db
-
-# Streamlit cache
-.streamlit/
+.idea/
+.DS_Store
